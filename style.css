@@ -1,0 +1,178 @@
+.Body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  color: teal;
+  text-transform: uppercase;
+  margin-top: 300px;
+}
+
+h2 {
+  color: teal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h4 {
+  color: teal;
+  text-transform: uppercase;
+  margin-top: -2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.nav {
+  display: flex;
+  padding-right: 1rem;
+  justify-content: flex-end;
+}
+.nav__list {
+  padding: 1rem;
+  background-color: teal;
+  width: 6rem;
+  text-align: center;
+  border-radius: 200px;
+  cursor: pointer;
+  list-style-type: none;
+}
+.nav__link {
+  color: beige;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: teal;
+  list-style: none;
+  border-radius: 200px;
+  width: 4rem;
+  padding: 1rem;
+}
+.logologo__link {
+  color: beige;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.Projects {
+  display: flex;
+  margin-top: 50px;
+}
+.Projects__child {
+  background-color: wheat;
+  padding: 1rem;
+  border-radius: 5px;
+  border-end-end-radius: 5px;
+  margin: 10px;
+}
+.Projects__button {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  border: 3px solid;
+  color: teal;
+  width: 20%;
+}
+
+.Lorem {
+  display: flex;
+  padding: 8px 6px;
+}
+.Lorem__half {
+  width: 50%;
+}
+
+.symbol {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom-color: teal;
+  margin-top: 50px;
+}
+.symbol__item {
+  color: beige;
+  border-radius: 0.5rem;
+  width: 8rem;
+  margin: auto;
+  background-color: teal;
+  text-align: center;
+  height: 2rem;
+  font-weight: 600;
+  padding: 20px 16px;
+}
+
+.blog__child1 {
+  display: flex;
+}
+.blog__child1__1 {
+  justify-content: space-around;
+}
+
+.img1 {
+  width: 30rem;
+  height: 25rem;
+}
+
+.img2 {
+  width: 30rem;
+  height: 25rem;
+}
+
+.img3 {
+  width: 30rem;
+  height: 25rem;
+}
+
+.blog-button1 {
+  border: teal 2px solid;
+  color: beige;
+  margin-top: 200px;
+  width: 8rem;
+  height: 2rem;
+  font-weight: 600;
+  padding: 20px 16px;
+}
+
+.form {
+  margin: 700px;
+  padding: 30px;
+  align-content: center;
+  border: teal 4px solid;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.submit {
+  color: beige;
+  background-color: teal;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: blanchedalmond;
+  margin-bottom: -10px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__cont {
+  margin-left: 100px;
+  width: 40%;
+  text-align: center;
+  border-radius: 50%;
+  padding: 18px 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
